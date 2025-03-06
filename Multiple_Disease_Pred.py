@@ -118,7 +118,7 @@ if (selected == 'Parkinson Prediction'):
     
     # Creating buttion for results
     if st.button('Show Parkinson result'):
-        prediction =parkinson_model.predict([[MDVP_Fo_Hz,MDVP_Fhi_Hz,MDVP_Flo_Hz,MDVP_Jitter_percentage
+        prediction =parkinson_model.predict([[MDVP_Fo_Hz,MDVP_Fhi_Hz,MDVP_Flo_Hz,MDVP_Jitter_percentage,
                                               MDVP_Jitter_Abs,RAP,PPQ,Jitter_DDP,Shimmer,Shimmer_dB,
                                               Shimmer_APQ3,Shimmer_APQ5,APQ,Shimmer_DDA,NHR,HNR,RPDE,
                                               DFA,spread1,spread2,D2,PPE
